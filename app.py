@@ -14,7 +14,7 @@ from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_
 app = Flask(__name__)
 
 # ──────────────────────────────────────────────
-# Structured JSON Logger
+# Structured JSON Logge
 # ──────────────────────────────────────────────
 class JSONFormatter(logging.Formatter):
     def format(self, record):
